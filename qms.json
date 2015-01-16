@@ -1,0 +1,13 @@
+{
+    "default":
+    {
+        "handler":"MysqlHandler",
+        "parameters":
+        {
+            "host":"localhost",
+            "user":"root",
+            "password":"",
+            "db":"vidalgp"
+        }
+    }
+}
