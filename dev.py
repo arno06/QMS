@@ -1,5 +1,7 @@
 from qms import *
 
+load_qms_config('qms.json')
+
 result = Query.select('*', 'main_user').execute()
 
 print(result)

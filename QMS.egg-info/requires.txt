@@ -1,6 +1,6 @@
 pymysql
 
-[dev]
-
-
 [test]
+
+
+[dev]
