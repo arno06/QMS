@@ -25,6 +25,7 @@ Usage
 -----
 
 .. code-block:: bash
+
     from qms import *
     query = Query.select('some, field', 'table_name').where("field", Query.LIKE, '%a value%').orWhere("some_other_field", Query.EQUAL, "another_value");
     print(query.get())
