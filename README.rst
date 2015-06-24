@@ -13,11 +13,16 @@ Features
 
 * Provides SQL Query Builer
 
+Installation
+------------
+
+.. code-block:: bash
+
+    pip install qms
+
 Todo
 ----
 
-* Provide a better way to define qms.json (and an alternative)
-* Installation process
 * Any other kind of queries (update, delete, show...)
 * Tests
 
