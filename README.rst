@@ -24,14 +24,13 @@ Todo
 Usage
 -----
 
-```python
-from qms import *
+.. code-block:: python
+    from qms import *
 
-query = Query.select('some, field', 'table_name').where("field", Query.LIKE, '%a value%').orWhere("some_other_field", Query.EQUAL, "another_value");
+    query = Query.select('some, field', 'table_name').where("field", Query.LIKE, '%a value%').orWhere("some_other_field", Query.EQUAL, "another_value");
 
-print(query.get())
+    print(query.get())
 
-results = query.execute("my_handler")
+    results = query.execute("my_handler")
 
-print(results)
-```
+    print(results)
